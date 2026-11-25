@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables & secrets
+.env
+.env.local
+
+# Local SQLite database & generated artifacts
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
